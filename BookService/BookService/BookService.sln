@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookService", "BookService\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHostWebApi", "SelfHostWebApi\SelfHostWebApi.csproj", "{27F36EBF-A805-42D5-A059-1714C5136A2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIClientTest", "WebAPIClientTest\WebAPIClientTest.csproj", "{429ADE22-A92B-408A-88DE-3C09E0B138D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonContracts", "CommonContracts\CommonContracts.csproj", "{D389008E-2453-44EE-A3FA-6F3CC7C296ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{27F36EBF-A805-42D5-A059-1714C5136A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27F36EBF-A805-42D5-A059-1714C5136A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27F36EBF-A805-42D5-A059-1714C5136A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429ADE22-A92B-408A-88DE-3C09E0B138D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429ADE22-A92B-408A-88DE-3C09E0B138D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429ADE22-A92B-408A-88DE-3C09E0B138D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429ADE22-A92B-408A-88DE-3C09E0B138D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D389008E-2453-44EE-A3FA-6F3CC7C296ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D389008E-2453-44EE-A3FA-6F3CC7C296ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D389008E-2453-44EE-A3FA-6F3CC7C296ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D389008E-2453-44EE-A3FA-6F3CC7C296ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

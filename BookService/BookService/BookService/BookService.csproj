@@ -187,12 +187,8 @@
       <DependentUpon>201406131812509_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Author.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Models\Book.cs">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Models\Author.cs" />
+    <Compile Include="Models\Book.cs" />
     <Compile Include="Models\BookDetailDTO.cs" />
     <Compile Include="Models\BookDTO.cs" />
     <Compile Include="Models\BookServiceContext.cs" />
