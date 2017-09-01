@@ -1,0 +1,39 @@
+        <script type="text/javascript">
+            function getUrlParameter(sParam) {
+                var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                sURLVariables = sPageURL.split('&'),sParameterName;
+
+                for (var i = 0; i < sURLVariables.length; i++) {
+                        sParameterName = sURLVariables[i].split('=');
+                        if (sParameterName[0] === sParam) {
+                            return sParameterName[1] === undefined ? true : sParameterName[1];
+                        }
+                    }
+            }
+            function SetValues(){
+                var noteslink = getUrlParameter("NotesLink");
+                var sharepointlink = getUrlParameter("SharePointLink");
+                if(noteslink){
+                    document.getElementById("noteslinkT").innerHTML = noteslink;
+                    document.getElementById("noteslinkT").setAttribute("href", noteslink);
+                }
+                else
+                    document.getElementById("noteslinkP").style.display = 'none';
+                
+                if(sharepointlink){
+                    document.getElementById("sharepointlinkT").innerHTML = sharepointlink;
+                    document.getElementById("sharepointlinkT").setAttribute("href", sharepointlink);
+                }
+                else
+                    document.getElementById("sharepointlinkP").style.display = 'none';
+                
+            }
+            window.onload = SetValues;
+                
+        </script>
+        <p id='noteslinkP'>
+            <b>Notes Link:</b> <a name='noteslinkTN' id='noteslinkT' ></a></br>
+        </p>
+        <p id='sharepointlinkP'>
+            <b>SharePoint Link:</b> <a name='sharepointlinkTN' id='sharepointlinkT' ></a></br>
+        </p>
